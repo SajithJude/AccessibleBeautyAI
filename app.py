@@ -5,7 +5,7 @@ from PIL import Image
 import numpy as np
 
 # Load the GFPGAN model
-model = torch.hub.load('akhaliq/GFPGAN', 'GFPGAN')
+model = torch.hub.load('TencentARC/GFPGANv1', 'GFPGANv1')
 
 # Define a function to enhance an image
 def enhance_image(image, enhancement_level):
